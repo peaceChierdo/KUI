@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
+    Helvetica, Segoe UI, Arial, Roboto, 'PingFang SC', 'miui',
+    'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+  font-size: 14px;
+}
+#app {
+  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* ::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 6px;
+} */
+
+/*定义滚动条高宽及背景
+ 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: #f5f5f5;
+}
+/*定义滚动条轨道
+  内阴影+圆角*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #ddd;
+  background-color: #ddd;
+}
+/*定义滑块
+  内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 0 6px #acabab;
+  background-color: #acabab;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: 'milky';
+  src: url('./lib/fonts/Freshty Milk.ttf');
+}
+@font-face {
+  font-family: 'Coconut-house';
+  src: url('./lib/fonts/Coconut House.ttf');
+}
+@font-face {
+  font-family: 'Pure Joy';
+  src: url('./lib/fonts/Pure Joy.ttf');
+}
+
+.doc-intro-wrap > h1 {
+  margin: 0 0 30px;
+  font-size: 30px;
+  color: #323233;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+}

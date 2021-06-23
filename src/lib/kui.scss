@@ -1,0 +1,24 @@
+[class^='kui-'],
+[class*=' kui-'] {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+button:focus {
+  outline: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    border-bottom: 1px solid;
+    cursor: pointer;
+  }
+}
