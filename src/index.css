@@ -53,19 +53,6 @@ body {
   overflow: hidden;
 }
 
-@font-face {
-  font-family: 'milky';
-  src: url('./lib/fonts/Freshty Milk.ttf');
-}
-@font-face {
-  font-family: 'Coconut-house';
-  src: url('./lib/fonts/Coconut House.ttf');
-}
-@font-face {
-  font-family: 'Pure Joy';
-  src: url('./lib/fonts/Pure Joy.ttf');
-}
-
 .doc-intro-wrap > h1 {
   margin: 0 0 30px;
   font-size: 30px;
