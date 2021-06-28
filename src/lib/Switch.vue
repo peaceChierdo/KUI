@@ -61,6 +61,11 @@
   // }
 
   .kui-switch {
+    zoom: 70%;
+    // transform: scale(0.7);
+    // transform-origin: left top;
+    user-select: none;
+    cursor: not-allowed;
     display: inline-block;
     position: relative;
     font-size: 1em;

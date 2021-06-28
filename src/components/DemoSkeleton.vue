@@ -64,20 +64,12 @@
         codeVisible.value = !codeVisible.value
         nextTick(() => {
           toggleText.value.classList.add('fadeIn')
-          codeWrap.value.classList.add('flipInX')
+          // codeWrap.value.classList.add('flipInX')
 
           setTimeout(() => {
             toggleText.value.classList.remove('fadeIn')
           }, 600)
         })
-
-        // if (codeVisible.value) {
-        //   toggleText.value.classList.remove('fadeInRight')
-        //   toggleText.value.classList.add('fadeInLeft')
-        // } else {
-        //   toggleText.value.classList.remove('fadeInLeft')
-        //   toggleText.value.classList.add('fadeInRight')
-        // }
       }
       const toggleText = ref<HTMLDivElement>(null)
 

@@ -74,7 +74,7 @@
             indicator.value.style.left = left + 'px'
           },
           {
-            flush: 'post' //效果更新需要缓冲时间
+            flush: 'post' // 渲染后再执行watchEffect
           }
         )
       })

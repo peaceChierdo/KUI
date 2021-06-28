@@ -53,6 +53,7 @@
 
 <style lang="scss" scoped>
   .topnav-wrapper {
+    user-select: none;
     z-index: 2;
     width: 100%;
     height: 68px;
@@ -60,7 +61,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: rgba(46, 106, 228, 1);
+    color: rgba(46, 106, 228, 0.7);
     box-shadow: 0 4px 6px #f0f0f0;
     .toggle-menu {
       display: none;

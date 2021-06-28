@@ -10,16 +10,13 @@ export default {
     globals: {
       vue: 'Vue',
     },
-    name: 'KUI',
+    name: 'Kui',
     file: 'dist/lib/kui.js',
     format: 'umd',
     plugins: [terser()],
   },
   plugins: [
-    scss({
-      include: /\.scss$/,
-      sass: dartSass,
-    }),
+    scss({ include: /\.scss$/, sass: dartSass }),
     esbuild({
       include: /\.[jt]s$/,
       minify: process.env.NODE_ENV === 'production',
