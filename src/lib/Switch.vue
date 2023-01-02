@@ -9,7 +9,7 @@
     :class="{'kui-checked':value}"
     @click="toggle"
   >
-    <span class="switch-left">On</span>
+    <span class="switch-left">OnONdfa</span>
     <span class="switch-right">Off</span>
   </div>
 
